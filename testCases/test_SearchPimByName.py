@@ -39,4 +39,4 @@ class Test_0004_PIM_search:
         assert True == status
         self.logger.info('****************************** searchEmpByName_0004 Finished ******************************* ')
 
-
+        self.driver.quit()

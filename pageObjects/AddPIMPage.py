@@ -46,6 +46,7 @@ class AddPIM:
 
     def __init__(self,driver):
         self.driver = driver
+        self.driver.implicitly_wait(5)
 
     def clickonPIM(self):
         self.driver.find_element(By.XPATH,self.class_pim_tab).click()

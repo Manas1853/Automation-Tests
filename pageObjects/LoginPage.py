@@ -15,6 +15,7 @@ class LoginPage:
 #it will capture the driver from the test case and we'll pass this driver from the test case later and that driver will initiate into the class variable
     def __init__(self,driver):    # this constructor will invoke at the time of object creation
         self.driver = driver
+        self.driver.implicitly_wait(5)
 
     def setUserName(self, username):
         # self.driver.find_element(By.ID, self.textbox_username_id).clear()

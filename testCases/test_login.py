@@ -48,7 +48,7 @@ class Test_001_Login:
         self.lp.clickLogin()
         sleep(5)
         act_title = self.driver.title
-        print("helloooo",act_title)
+        # print("helloooo",act_title)
         # if act_title == 'Dashboard / nopCommerce administration':
         if act_title == 'OrangeHRM':
             assert True

@@ -28,6 +28,10 @@ class Test_004_PIM_Search:
         self.ap.clickonPIM()
         self.logger.info("********************* Navigated to PIM ************************")
 
+        yield
+        self.driver.quit()
+
+
     @pytest.mark.regression
     def test_searchEmpByName(self):
         self.logger.info('******************** Running: test_searchEmpByName ********************')
@@ -107,3 +111,4 @@ class Test_004_PIM_Search:
         rows_page2 = self.sp.getTableRowTexts()
         assert rows_page1 != rows_page2
         self.logger.info('******************** Finished: test_pagination ********************')
+

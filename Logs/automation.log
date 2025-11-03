@@ -61,3 +61,76 @@
 2025-06-23 03:27:46,448 - root - INFO - ********************* Saving PIM Info ************************
 2025-06-23 03:27:46,448 - root - INFO - ***************** Add PIM validation_2 started *****************
 2025-06-23 03:27:46,505 - root - INFO - **************** Add PIM Test failed ****************
+2025-11-03 23:30:37,770 - root - INFO - ********************* Test_0003_AddPIM ************************
+2025-11-03 23:30:48,953 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:30:48,953 - root - INFO - ********************* Starting Add PIM Test ************************
+2025-11-03 23:31:00,204 - root - INFO - ********************* Providing PIM Info ************************
+2025-11-03 23:31:02,502 - root - INFO - ***************** Add PIM validation_1 started *****************
+2025-11-03 23:31:02,697 - root - INFO - **************** Add PIM Test failed ****************
+2025-11-03 23:31:29,133 - root - INFO - ********************* Saving PIM Info ************************
+2025-11-03 23:31:29,134 - root - INFO - ***************** Add PIM validation_2 started *****************
+2025-11-03 23:31:29,325 - root - INFO - **************** Add PIM Test failed ****************
+2025-11-03 23:50:58,235 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:51:00,868 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:51:00,871 - root - INFO - ******************** Running: test_searchEmpByName ********************
+2025-11-03 23:52:51,857 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:52:54,577 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:52:54,578 - root - INFO - ******************** Running: test_searchEmpByName ********************
+2025-11-03 23:53:04,811 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:53:07,512 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:53:07,513 - root - INFO - ******************** Running: test_searchEmpById ********************
+2025-11-03 23:53:24,868 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:53:27,552 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:53:27,553 - root - INFO - ******************** Running: test_resetSearchForm ********************
+2025-11-03 23:53:28,352 - root - INFO - ******************** Finished: test_resetSearchForm ********************
+2025-11-03 23:53:35,762 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:53:38,462 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:53:38,463 - root - INFO - ******************** Running: test_combination_filters ********************
+2025-11-03 23:53:52,376 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:53:55,085 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:53:55,087 - root - INFO - ******************** Running: test_negative_search ********************
+2025-11-03 23:54:04,928 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:54:07,499 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:54:07,502 - root - INFO - ******************** Running: test_pagination ********************
+2025-11-03 23:54:14,174 - root - INFO - ******************** Finished: test_pagination ********************
+2025-11-03 23:57:02,217 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:57:05,022 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:57:05,023 - root - INFO - ******************** Running: test_searchEmpByName ********************
+2025-11-03 23:57:18,288 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:57:20,984 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:57:20,984 - root - INFO - ******************** Running: test_searchEmpById ********************
+2025-11-03 23:58:25,429 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:58:27,936 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:58:30,108 - root - INFO - ******************** Running: test_searchEmpByName ********************
+2025-11-03 23:58:34,227 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002179BBABED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/da0070ce20454c2089eee8247d7e15de/timeouts
+2025-11-03 23:58:38,315 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002179BBC4990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/da0070ce20454c2089eee8247d7e15de/timeouts
+2025-11-03 23:58:42,384 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002179BBC5510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/da0070ce20454c2089eee8247d7e15de/timeouts
+2025-11-03 23:58:54,450 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:58:57,228 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:58:59,359 - root - INFO - ******************** Running: test_searchEmpById ********************
+2025-11-03 23:59:03,452 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002179C6C38D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/dcac4ccbc9b8b0ccb6a88ffbfc6a63fb/timeouts
+2025-11-03 23:59:07,586 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002179C6C0950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/dcac4ccbc9b8b0ccb6a88ffbfc6a63fb/timeouts
+2025-11-03 23:59:11,650 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002179C43A490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/dcac4ccbc9b8b0ccb6a88ffbfc6a63fb/timeouts
+2025-11-03 23:59:32,629 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:59:35,184 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:59:35,185 - root - INFO - ******************** Running: test_searchEmpByName ********************
+2025-11-03 23:59:45,763 - root - INFO - ********************* Login Successful ************************
+2025-11-03 23:59:48,484 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-03 23:59:48,485 - root - INFO - ******************** Running: test_searchEmpById ********************
+2025-11-04 00:05:20,943 - root - INFO - ********************* Login Successful ************************
+2025-11-04 00:05:23,453 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-04 00:05:23,453 - root - INFO - ******************** Running: test_searchEmpByName ********************
+2025-11-04 00:05:39,573 - root - INFO - ********************* Login Successful ************************
+2025-11-04 00:05:42,413 - root - INFO - ********************* Navigated to PIM ************************
+2025-11-04 00:05:42,414 - root - INFO - ******************** Running: test_searchEmpById ********************
+2025-11-04 00:07:57,771 - root - INFO - ******************** searchEmpByName_0005 ********************
+2025-11-04 00:08:03,393 - root - INFO - ********************* Login Successful ************************
+2025-11-04 00:08:06,180 - root - INFO - ********************* Starting Search PIM by ID Test ************************
+2025-11-04 00:08:07,698 - root - INFO - ****************************** searchEmpById_0005 Finished ******************************* 
+2025-11-04 00:08:40,730 - root - INFO - ******************** searchEmpByName_0005 ********************
+2025-11-04 00:08:46,569 - root - INFO - ********************* Login Successful ************************
+2025-11-04 00:08:49,535 - root - INFO - ********************* Starting Search PIM by ID Test ************************
+2025-11-04 00:10:29,859 - root - INFO - ******************** searchEmpByName_0005 ********************
+2025-11-04 00:10:35,478 - root - INFO - ********************* Login Successful ************************
+2025-11-04 00:10:38,114 - root - INFO - ********************* Starting Search PIM by ID Test ************************
+2025-11-04 00:10:39,420 - root - INFO - ****************************** searchEmpById_0005 Finished ******************************* 
