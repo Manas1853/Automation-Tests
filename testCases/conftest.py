@@ -52,8 +52,8 @@ def pytest_configure(config):
     metadata = config.pluginmanager.getplugin("metadata")
     if metadata:
         from pytest_metadata.plugin import metadata_key
-        config.stash[metadata_key]['Project Name'] = 'nop Commerce'
-        config.stash[metadata_key]['Module Name'] = 'Customers'
+        config.stash[metadata_key]['Project Name'] = 'OrangeHRM Automation Framework'
+        config.stash[metadata_key]['Module Name'] = 'End-to-End Functional Testing'
         config.stash[metadata_key]['Tester'] = 'Manas'
 
 # It is hook for delete/Modify Environment info to HTML Report
